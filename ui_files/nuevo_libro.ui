@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
- <class>nuevoLibro</class>
- <widget class="QWidget" name="nuevoLibro">
+ <class>nuevoLibroForm</class>
+ <widget class="QWidget" name="nuevoLibroForm">
   <property name="geometry">
    <rect>
     <x>0</x>

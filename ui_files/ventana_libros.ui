@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
- <class>formulario_libros</class>
- <widget class="QWidget" name="formulario_libros">
+ <class>main_ventana_libros</class>
+ <widget class="QWidget" name="main_ventana_libros">
   <property name="geometry">
    <rect>
     <x>0</x>

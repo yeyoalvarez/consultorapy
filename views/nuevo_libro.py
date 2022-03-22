@@ -13,7 +13,7 @@ from PySide2.QtGui import *
 from PySide2.QtWidgets import *
 
 
-class nuevoLibro(object):
+class nuevoLibroForm(object):
     def setupUi(self, nuevoLibro):
         if not nuevoLibro.objectName():
             nuevoLibro.setObjectName(u"nuevoLibro")
