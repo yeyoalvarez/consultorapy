@@ -37,7 +37,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="D:\Admin\Documents\djangoProyectos\consultorapy\venv"
+VIRTUAL_ENV="C:\Users\ye_yo\Documents\consultorapy\venv"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"
