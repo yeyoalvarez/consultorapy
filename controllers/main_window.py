@@ -1,5 +1,4 @@
 from PySide2.QtWidgets import QWidget
-
 from views.ventana_libros import main_ventana_libros
 
 
@@ -9,9 +8,12 @@ class listBookWindows(QWidget, main_ventana_libros):
         super().__init__()
 
         self.setupUi(self)
+        self.botonAddLibro.clicked.connect(self.open_new_book_window)
 
     def open_new_book_window(self):
-        pass
+        from controllers.new_libro_window import nuevoLibroWindow
+        window = nuevoLibroWindow(self)
+        window.show()
 
     def open_edit_window(self):
         pass
